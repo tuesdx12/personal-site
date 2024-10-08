@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blog / sarahx12</title>
+        <link rel="stylesheet" href="style-blog.css">
+    </head>
+    <body>
+    <div class="container">
+        <img src="misato.GIF" id="misato">
+        <iframe class="post-iframe" id="post-iframe" src="post-1.html" width="500px" height="800px"></iframe>  
+        <div class="blog-grid">
+            <div class="option-outer-box">
+                <div class="option-inner-box" id="gohome" onclick="gohome()">
+                    <h2>Go home x3</h2>
+                </div>
+           </div>
+           <div class="option-outer-box">
+                <div class="option-inner-box" id="post-1" onclick="loadpost('post-1.html')">
+                    <h2>blog post, you guessed it, number 1.....</h2>
+                </div>
+           </div>
+           <div class="option-outer-box">
+                <div class="option-inner-box" id="post-2" onclick="loadpost('post-2.html')">
+                    <h2>if you click here you open up the SECOND lblog post...,.,.,</h2>
+                </div>
+           </div>
+           <div class="option-outer-box">
+                <div class="option-inner-box" id="post-3" onclick="loadpost('post-3.html')">
+                    <h2>first day of school :P </h2>
+                </div>
+            </div>
+        </div> 
+    </div>
+        <script>
+            function loadpost(postURL) {
+                document.getElementById('post-iframe').src = postURL;
+
+            }
+
+            function gohome() {
+            var HomeUrl = 'https://sarahx12.neocities.org/';
+                window.location.href = HomeUrl;
+
+            }
+
+
+        </script>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

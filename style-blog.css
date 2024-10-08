@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://1041uuu.jp/Gallery/c/c16.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 500px 600px 500px;
+    padding:50px;
+
+
+}
+
+#misato {
+    justify-self: center;
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.post-iframe {
+    border:none;
+    grid-row: 1;
+    grid-column: 2 / 3;
+    justify-self: center;
+
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: 425px;
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: right;
+
+}
+
+.option-outer-box {
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding:10px
+}
+
+
+.option-inner-box {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#gohome {
+    background-color:lemonchiffon;
+
+}
+
+#post-1 { 
+    background-color:lightpink;
+}
+
+#post-2 {
+    background-color: lightskyblue;
+
+}
+
+#post-3 {
+    background-color: lightgreen;
+    
+  }
