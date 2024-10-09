@@ -1,6 +1,8 @@
 :root {
   --lightblue:rgb(197, 255, 238);
   --green:rgb(0, 255, 115);
+  --textcolor: rgb(41, 18, 248);
+  --unclickedlink: rgb(0, 0, 0);
   }
   
   h1{
@@ -14,13 +16,26 @@
   a:link{
     color:rgb(161, 171, 255);
   }
-  
-  
+
+  .box p{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: var(--textcolor)
+
+  }
+
+  .box link{
+    color: var(--unclickedlink);
+    /*im going to off myself*/
+    /*i dont know how to make this work x333*/
+
+  }
+
   body {
       background-image: url(https://1041uuu.jp/Gallery/c/c28-1.gif);
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;   
+    
     }
     .wrapper {
       display: grid;
