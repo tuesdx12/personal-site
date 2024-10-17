@@ -24,16 +24,16 @@
         // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES
         let track_list = [
             {
+                name:"Spoiled little brat - underscores",
+                path:"https://files.catbox.moe/14rbtc.mp3"
+            },
+            {
                 name:"c r a z y - Ohzora Kimishima",
                 path:"https://files.catbox.moe/qtjl2o.mp3"
             },
             {
                 name:"Santeria - Sublime",
                 path:"https://files.catbox.moe/wq3nkp.mp3"
-            },
-            {
-                name:"Spoiled little brat - underscores",
-                path:"https://files.catbox.moe/14rbtc.mp3"
             },
             {
                 name: "Antonymph - Vylet Pony",
