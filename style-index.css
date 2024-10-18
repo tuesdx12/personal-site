@@ -2,19 +2,16 @@
   --lightblue:rgb(197, 255, 238);
   --green:rgb(0, 255, 115);
   --textcolor: rgb(0, 0, 0);
-  --unclickedlink: rgb(0, 0, 0);
+  --unclickedlink: rgb(255, 255, 100);
+  }
+
+  html {
+    scrollbar-color: rgb(108, 255, 174) rgba(150, 255, 255, 0.5);
+
   }
   
   h1{
     color: var(--lightblue);
-  }
-  
-  p{
-    color: var(--green)
-  }
-  
-  a:link{
-    color:rgb(161, 171, 255);
   }
 
   .box p{
@@ -23,10 +20,14 @@
 
   }
 
-  .box link{
+  .box a{
+    font-family: "Lucida Console", "Courier New", monospace;
     color: var(--unclickedlink);
-    /*im going to off myself*/
-    /*i dont know how to make this work x333*/
+
+  }
+
+  .box ul{
+    font-family: "Lucida Console", "Courier New", monospace;
 
   }
 
@@ -48,8 +49,6 @@
       padding: 20px 75px 20px 20px;
     }
     .box {
-  
-  
       overflow:auto;
       scrollbar-color: rgb(108, 255, 174) rgba(150, 255, 255, 0.5);
       background-color:rgba(150, 255, 255, 0.5);
@@ -91,7 +90,20 @@
     
     #musicplayer {
       grid-row: 3/4;
-      grid-column: 3 / 4;
+      grid-column: 3 / 3;
       height: fit-content;
     }
 
+    #weeklyart {
+      grid-row: 3 / 7;
+      grid-column: 2 / 3;
+      height: fit-content;
+      text-align: center;
+    }
+
+    #updates {
+      grid-row: 2 / 3;
+      grid-column: 3 / 4;
+
+
+    }
